@@ -3,14 +3,19 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Site</title>
+		<title>somethingneeddoing</title>
+
+		 <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
 	</head>
 	
 	<body>
-		<div>
-			<a href="/">Patryk Matongo</a>
-		</div>
-		<div>
+		<header class="site-header">
+			<div class="site-header-inner">
+				<a class="site-header__name" href="/">Patryk Matongo</a>
+				<a class="site-header__about" href="/about">About</a>
+			</div>
+		</header>
+		<div class="content">
 			{{ block "main" . }}
 			{{ end }}
 		</div>
