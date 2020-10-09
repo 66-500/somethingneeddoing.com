@@ -4,7 +4,7 @@ clean:
 	git worktree prune
 	rm -rf .git/worktrees/public
 	git worktree add -B public public origin/public
-	rm -rf $(CURDIR)/public/
+	rm -rf $(CURDIR)/public/*
     
 build: clean	
 	hugo
