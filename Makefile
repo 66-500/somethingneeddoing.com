@@ -11,5 +11,5 @@ build: clean
 
 publish: build
 	cd public && git add --all && git commit -m "publishing to public branch"
-#git push --all
+	git push --all
 
