@@ -2,8 +2,8 @@
 title: About
 ---
 
-Some stuff will go here about me -
+Some day things about me may appear here
 
 [github]
 
-[github]: https://github.com/1patryk
+[github]: https://github.com/66-500
