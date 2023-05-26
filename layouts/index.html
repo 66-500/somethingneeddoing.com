@@ -1,15 +1,6 @@
 {{ define "main" }}
-<div class="container">
-    <div class="content">
-      <div class="posts">
-            {{ range where .Site.RegularPages "Section" "posts" }}
-              <p>
-                <span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span>
-                <a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
-              </p>
-        {{ end }}
-    </div>
-
-</div>
+{{ range where .Site.RegularPages "Section" "posts" }}
+<span class="post-date">{{ .Date.Format "2 Jan 2006" }}</span>
+<a class="post-title" href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a>
 {{ end }}
-
+{{ end }}
