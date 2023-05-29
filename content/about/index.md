@@ -2,6 +2,8 @@
 title: About
 ---
 
-Some day things about me may appear here
+I'm Patryk
 
-[github](https://github.com/66-500)
+![Me](/me.jpg)
+
+Some day things more things about me may appear here. For now here is my barren [github](https://github.com/b6o)
